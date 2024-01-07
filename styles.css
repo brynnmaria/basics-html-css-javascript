@@ -1,0 +1,132 @@
+body{
+  text-align: center;
+  list-style-position: inside;
+  background-color: #E7E7E3;
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-header{
+  font-size: 3rem;
+  font-family: sans-serif;
+  
+
+}
+
+.main-section{
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+
+#main-doc{
+  margin: 0;
+  padding-top: 59px;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 30px;
+}
+
+#top-header{
+  word-spacing: 11px;
+  letter-spacing: 3px;
+}
+
+#why-understanding-html-css-and-javascript-is-important{
+  background-color: #DEDACF;
+}
+
+#html-basics{
+  background-color: #D4D5CD;
+}
+
+#css-basics{
+  background-color: #DEDACF;
+}
+
+#javascript-basics{
+  background-color: #D4D5CD;
+}
+
+#how-html-css-and-javascript-work-together{
+  background-color: #DEDACF;
+}
+p{
+  font-size: 18px;
+}
+
+li{
+  font-size: 18px;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(94, 91, 88);
+  min-height: 68px;
+  
+}
+
+#navbar > *{
+  margin: 0 20px;
+}
+
+#top-header{
+  float: left;
+  color: #E7E7E3;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+
+}
+
+
+
+#navbar li{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+
+#navbar a:hover{
+  background-color: rgb(80, 80, 80);
+}
+
+#navbar ul{
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+@media (max-width: 700px){
+   
+  /* for screens 700px or less */
+
+  #navbar ul{
+   display: none;
+  
+  } 
+
+}
+
+@media (max-width: 1000px){
+   
+  /* for screens 1000px or less */
+
+  #navbar{
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+}
